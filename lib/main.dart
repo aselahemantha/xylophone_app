@@ -23,7 +23,7 @@ class XylophoneApp extends StatelessWidget {
         child: Icon(
           Icons.music_note,
           color: Colors.white,
-          size: 40.0,
+          size: 35.0,
           semanticLabel: 'Text to announce in accessibility modes',
         ),
       ),
@@ -39,6 +39,11 @@ class XylophoneApp extends StatelessWidget {
           title: Center(
             child: Text(
               'XyloPhone App',
+              style: TextStyle(
+                fontFamily: 'Arima',
+                fontSize: 25.0,
+                fontWeight: FontWeight.w100,
+              ),
 
             ),
           ),

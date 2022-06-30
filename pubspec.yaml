@@ -28,9 +28,8 @@ flutter:
     - assets/
 
 
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  fonts:
+    - family: 'Arima'
+      fonts:
+        - asset: fonts/Arima-Regular.ttf
+
